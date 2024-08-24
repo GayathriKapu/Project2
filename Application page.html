@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internship Application Page</title>
+</head>
+<body>
+    <h2 style="text-align:center; color:#800080">Internship Application</h2>
+    <form method="POST" action="Response.html">
+        <p>Enter your Name: <input type="text" name="Name"/></p>
+        <p>Enter your Email: <input type="email" name="email"/></p>
+        <p>Enter your Password: <input type="password" name="password"/></p>
+        <p>Enter your Age: <input type="number" name="Age"/></p>
+        <p>Gender:</p>
+        <input type="radio" name="gender" value="Male"/>Male<br>
+        <input type="radio" name="gender" value="Female"/>Female<br>
+        <p>About Yourself</p>
+        <textarea rows="5" cols="50" name="Description"></textarea>
+        <p>Choose the programming languages you know</p>
+        <input type="checkbox" name="languages" value="C"/>C<br>
+        <input type="checkbox" name="languages" value="C++"/>C++<br>
+        <input type="checkbox" name="languages" value="Java"/>Java<br>
+        <input type="checkbox" name="languages" value="Python"/>Python<br>
+        <input type="checkbox" name="languages" value="GO"/>GO<br>
+        <p>How many months are you available for an internship program?</p>
+        <select name="duration">
+            <option value="None">None</option>
+            <option value="6 Months">6 Months</option>
+            <option value="3 Months">3 Months</option>
+            <option value="2 Months">2 Months</option>
+            <option value="1 Month">1 Month</option>
+        </select>
+        <p>Upload your resume</p>
+        <input type="file" name="fileupload" accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <p></p>
+        <button type="submit" name="submit" value="Submit">Submit</button>
+    </form>
+</body>
+</html>

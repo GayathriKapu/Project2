@@ -1,4 +1,4 @@
-Here's a sample README file for your GitHub project:
+
 
 Project 2
 Internship Application Form
